@@ -1,0 +1,56 @@
+body{
+  background: #5d7861;
+}
+.da{
+  transform-style: preserve-3d;
+  perspective: 800px;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  margin:100px auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(30deg);
+    transition: all 6s;
+}
+.box:hover{
+
+  transform: rotateX(360deg) rotateY(360deg);
+}
+.box div{
+  width: 200px;
+  height:200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  position: absolute;
+}
+.box div img{
+  width: 200px;
+  height: 200px;
+}
+.left{
+  transform:rotateY(-90deg) translateZ(100px);
+  background: red;
+}
+.right{
+  transform:rotateY(90deg) translateZ(100px);
+  background: red;
+}
+.top{
+  transform: rotateX(90deg) translateZ(100px);
+  background:#ccc;
+}
+.bottom{
+  transform: rotateX(-90deg) translateZ(100px);
+  background:#ccc;
+}
+.qian{
+  transform:translateZ(100px);
+  background:#123 ;
+}
+.hou{
+  transform:translateZ(-100px) rotateY(180deg);
+  background:#123 ;
+}

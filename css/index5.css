@@ -1,0 +1,80 @@
+body{
+  background: #a9a4cd;
+}
+.box{
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  position: relative;
+  perspective: 800px;
+  border:1px solid #a9a4cd;
+  transform-style: preserve-3d;
+  perspective-origin: right;
+}
+.wutai{
+  position: absolute;
+  width:100px;
+  height: 300px;
+  margin:50px auto;
+  float:left;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.wutai div{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  line-height: 300px;
+}
+.top{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform:rotateX(90deg) translateZ(150px);
+  background:url(../img/img1.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.bottom{
+  width:100%;
+  height:100%;
+  background:url(../img/img2.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  transform:rotateX(90deg) translateZ(-150px);
+}
+.hou{
+  width:100%;
+  height:100%;
+  background:url(../img/img3.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  transform: rotateX(180deg) translateZ(150px);
+}
+.qian{
+  width:100%;
+  height: 100%;
+  background:url(../img/img4.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  transform:translateZ(150px);
+}
+.left{
+  width: 300%;
+  height: 100%;
+  background:url(../img/img5.jpg) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  transform: rotateY(90deg) translateZ(-150px);
+}
+.right{
+  width:300%;
+  height:100%;
+  position: absolute;
+  background:url(../img/img6.jpg) no-repeat;
+  background-size: 100% 100%;
+  transform: rotateY(90deg) translateZ(-50px);
+}
+.btn{
+  width: 60px;
+  margin:0 auto;
+}
